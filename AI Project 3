@@ -1,0 +1,31 @@
+# Appending lists in Python
+even = [2, 4, 6]
+print (even)
+even.append(8)
+print(even)
+even.extend([10,12,14])
+print(even)
+
+# Accessing tuple elements using indexing
+mytuple = ('a','e','i','o','u')
+print(mytuple[0])   # 'a' 
+print(mytuple[4])   # 'u'
+# Index must be an integer and in range
+
+# Creating a Python dictionary
+sixMonths = {1:31, 2:28, 3:31, 4:30, 5:31, 6:30}
+# Deleting a specific element
+print(sixMonths.pop(6)) 
+print(sixMonths)
+# Deleting a random element
+print(sixMonths.popitem())
+print(sixMonths)
+# Removing a specific element
+del sixMonths[5]
+print(sixMonths)
+# Deleting all elements from the dictionary
+sixMonths.clear()
+print(sixMonths)
+# Eliminating the dictionary object
+del sixMonths
+print(sixMonths)
